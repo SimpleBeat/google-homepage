@@ -4,18 +4,24 @@
 }
 
 .nav span {
-  margin: 0 5px 0 5px;
+  margin: 0 10px 0 5px;
   font-family: Arial, sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   color: black;
-  line-height: 24px;
   display: inline-block;
+  vertical-align: middle;
+}
+
+.nav span a img {
+  transform: translateY(2px);
+  transition-duration: 0.3s;
 }
 
 .nav span a {
   text-decoration: none;
   opacity: .5;
   color: black;
+  transition-duration: 0.3s;
 }
 
 .nav span a:hover {
@@ -33,6 +39,7 @@
   text-align: center;
   font-size: 14px;
   font-weight: bold;
+  transition-duration: 0.3s;
 }
 
 .nav span button:hover {
@@ -41,5 +48,25 @@
 
 #logo {
   display: block;
-  margin: 120px auto;
+  margin: 120px auto 0 auto;
+}
+
+#searchField:focus, #searchField:hover {
+  border-color: grey;
+}
+
+#searchField {
+  display: block;
+  width: 570px;
+  height: auto;
+  margin: 5px auto 5px auto;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: grey;
+  outline: none;
+  padding: 5px 5px 5px 5px;
+  transition-duration: 0.3s;
 }
