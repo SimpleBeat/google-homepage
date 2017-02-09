@@ -53,6 +53,7 @@
 
 #searchField:focus, #searchField:hover {
   border-color: grey;
+  box-shadow: 0 3px 5px 0px lightgrey;
 }
 
 #searchField {
@@ -68,7 +69,8 @@
   color: grey;
   outline: none;
   padding: 5px 5px 5px 5px;
-  transition-duration: 0.3s;
+  box-shadow: 0 0px 0px 0px silver;
+  transition-duration: 0.5s;
 }
 
 .Sbutton button {
